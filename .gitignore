@@ -25,5 +25,5 @@ fp-info-cache
 *.xml
 *.csv
 
-espoir_io_one_hat-backups/
+*-backups/
 out/
