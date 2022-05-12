@@ -80,7 +80,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../outputs/pnp")
+      (outputdirectory "../out")
     )
   )
 
@@ -6153,6 +6153,9 @@
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "Digital" (at 125.349 55.88) (layer "F.SilkS") (tstamp 9338912f-2905-4dd2-82d1-89c3af9c61a3)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "JLCJLCJLCJLC" (at 126.619 35.56) (layer "F.SilkS") (tstamp 939acf0c-dce1-49c9-aae6-7bf8ca88a117)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "Voltage select." (at 120.269 69.85 90) (layer "F.SilkS") (tstamp 9a12afca-316a-4d83-b1fa-1cacc5cbc8bc)

@@ -387,8 +387,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": "../../../../Downloads/espoir_io_one_hat.wrl"
+      "step": "../out/io_one_mikroshield.step",
+      "vrml": "../out/0.3.5/io_one_mikroshield.wrl"
     },
     "page_layout_descr_file": ""
   },
