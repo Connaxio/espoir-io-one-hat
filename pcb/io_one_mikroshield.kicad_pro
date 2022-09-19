@@ -44,7 +44,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
+          "45_degree_only": true,
           "min_clearance": 0.127
         }
       },
@@ -57,16 +57,9 @@
       ],
       "drc_exclusions": [
         "missing_courtyard|120269000|59690000|4dff9982-da86-4956-a387-6522d7dfcb7b|00000000-0000-0000-0000-000000000000",
-        "missing_courtyard|124714000|55245000|26d67dfd-3292-4318-8bdf-49af2ebe8ad7|00000000-0000-0000-0000-000000000000",
-        "missing_courtyard|126619000|55245000|26d67dfd-3292-4318-8bdf-49af2ebe8ad7|00000000-0000-0000-0000-000000000000",
-        "missing_courtyard|126619000|55880000|26d67dfd-3292-4318-8bdf-49af2ebe8ad7|00000000-0000-0000-0000-000000000000",
         "missing_courtyard|126619000|77470000|05cf3847-648d-4958-ba14-c4cb604355d5|00000000-0000-0000-0000-000000000000",
-        "missing_courtyard|126619000|78740000|d08c2540-38c3-4ed9-9cfb-004a7150f8d6|00000000-0000-0000-0000-000000000000",
-        "missing_courtyard|126619000|85090000|05cf3847-648d-4958-ba14-c4cb604355d5|00000000-0000-0000-0000-000000000000",
         "missing_courtyard|126619000|85090000|b548cc5a-4263-486b-9c32-c9b41ad0aa4b|00000000-0000-0000-0000-000000000000",
-        "missing_courtyard|126619000|86360000|05cf3847-648d-4958-ba14-c4cb604355d5|00000000-0000-0000-0000-000000000000",
         "missing_courtyard|129159000|59690000|d08c2540-38c3-4ed9-9cfb-004a7150f8d6|00000000-0000-0000-0000-000000000000",
-        "missing_courtyard|130429000|83820000|9777a0a6-c53a-49b9-8daf-688ad69635ee|00000000-0000-0000-0000-000000000000",
         "missing_courtyard|136779000|63500000|36496ae0-3076-4119-a683-954808297b4c|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
@@ -76,7 +69,7 @@
         "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
-        "courtyards_overlap": "ignore",
+        "courtyards_overlap": "warning",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -94,12 +87,12 @@
         "missing_courtyard": "error",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "error",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
-        "silk_over_copper": "ignore",
-        "silk_overlap": "ignore",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
