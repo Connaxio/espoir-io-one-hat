@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.95,
+          "width": 0.9
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -100,7 +100,7 @@
         "length_out_of_range": "error",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "error",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "error",
@@ -403,7 +403,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "../out/io_one_mikroshield.step",
-      "vrml": "../out/0.3.5/io_one_mikroshield.wrl"
+      "vrml": "../out/io_one_mikroshield.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -454,9 +454,9 @@
   "text_variables": {
     "author": "Marc-Antoine Lalonde",
     "company": "Connaxio inc.",
-    "day": "29",
-    "month": "05",
-    "rev": "0.3.7",
+    "day": "06",
+    "month": "10",
+    "rev": "1.0.0",
     "title": "IO One mikroShield",
     "year": "2022"
   }
